@@ -2,8 +2,8 @@
 
 A rather generic, easily extendable linter for everything™.
 
-[[#+ATTR_HTML: :style float:right;
-./oklint_logo.png]]
+#+ATTR_HTML: :style float:right;
+[[./oklint_logo.png]]
 
 ** Introduction
 
