@@ -15,5 +15,10 @@
     "linting"
   ],
   "author": "Phil Hofmann",
-  "license": "AGPL-3.0-only"
+  "license": "AGPL-3.0-only",
+  "dependencies": {
+    "csv-parse": "^4.4.7",
+    "glob": "^7.1.4",
+    "js-yaml": "^3.13.1"
+  }
 }

@@ -1,0 +1,4 @@
+# -*- mode: yaml -*-
+
+filenaming:
+  global: "file"
