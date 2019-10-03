@@ -1,7 +1,7 @@
 {
   "name": "oklint",
   "version": "1.0.0",
-  "description": "A rather generic, easliy extendable linter for everything™",
+  "description": "A rather generic, easily extendable linter for everything™",
   "main": "lib/oklint.js",
   "directories": {
     "lib": "lib"
