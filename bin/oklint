@@ -1,0 +1,8 @@
+#!/bin/sh
+
+set -e
+
+BASE=$(dirname "$0")
+NODE=$(which node)
+
+$NODE $BASE/lib/oklint.js
