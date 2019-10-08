@@ -2,16 +2,14 @@
 
 A rather generic, easily extendable linter for everything™.
 
-[[./oklint_logo.png]]
 #+ATTR_HTML: :style float:right;
+[[./oklint_logo.png]]
 
 ** Introduction
 
 =oklint= is not just another linter.
 
-/lint, or a linter, is a tool that analyzes source code to flag
-programming errors, bugs, stylistic errors, and suspicious
-constructs./ ([[https://en.wikipedia.org/wiki/Lint_(software)][Wikipedia]])
+/lint, or a linter, is a tool that analyzes source code to flag programming errors, bugs, stylistic errors, and suspicious constructs./ ([[https://en.wikipedia.org/wiki/Lint_(software)][Wikipedia]])
 
 =oklint= doesn't lint source code, at least not first and foremost.
 =onlint= is an extendable linting system that aims for linting
