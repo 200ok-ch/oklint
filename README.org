@@ -12,23 +12,23 @@ A rather generic, easily extendable linter for everything™.
 /lint, or a linter, is a tool that analyzes source code to flag programming errors, bugs, stylistic errors, and suspicious constructs./ ([[https://en.wikipedia.org/wiki/Lint_(software)][Wikipedia]])
 
 =oklint= doesn't lint source code, at least not first and foremost.
-=onlint= is an extendable linting system that aims for linting
+=oklint= is an extendable linting system that aims for linting
 everything. Sounds presumptuous? It totally is! But listen...
 
 The thing is, we wanted to ensure that in a Git repo on commit
 
 - files are named according to a schema
-- csv files are wellformed and fit for automatic processing
+- csv files are well formed and fit for automatic processing
 - certain keywords are present in every line of a file
 - etc (you get the picture)
 
-As you can se, we took linting to another level. We wanted to lint
+As you can see, we took linting to another level. We wanted to lint
 all-the-things!
 
 ** Usage
 
 =oklint= comes with a couple of plugins. If you don't find what you
-need it is relatively straigt forward to develop you own plugins for
+need it is relatively straight forward to develop you own plugins for
 =oklint=. It currently provides plugins for
 
 - filenaming
@@ -65,18 +65,18 @@ Applying plugin filenaming...
 #+END_EXAMPLE
 
 If the command returns with the return value 0 everything is ok, which
-means every deinfed rule is satisfied. Otherwise a non-zero exit code
+means every defined rule is satisfied. Otherwise a non-zero exit code
 will be returned.
 
 We recommend using =oklint= in a Git repo with Git's pre-commit hook,
-which will prevent commit which do not fully satifsfy the defined
+which will prevent commit which do not fully satisfy the defined
 rules.
 
 As a matter of fact =oklint= currently assumes that it is used in a
 Git repo, because when called without arguments it uses Git to look
 for changed files.
 
-We recommand [[https://github.com/typicode/husky][husky]] to easliy setup the git hook. This in your
+We recommend [[https://github.com/typicode/husky][husky]] to easily setup the git hook. This in your
 =package.json= should do:
 
 #+BEGIN_EXAMPLE
