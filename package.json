@@ -2,6 +2,7 @@
   "name": "oklint",
   "version": "1.0.0",
   "description": "A rather generic, easily extendable linter for everything™",
+  "repository": "git@gitlab.200ok.ch:200ok/oklint.git",
   "main": "lib/oklint.js",
   "directories": {
     "lib": "lib"
